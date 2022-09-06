@@ -9,7 +9,7 @@ seed = 444
 
 random.seed(seed)
 np.random.seed(seed)
-torch.manual_seed(0)
+torch.manual_seed(seed)
 ```
 
 ## Credits
